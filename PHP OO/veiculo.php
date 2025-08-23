@@ -2,7 +2,7 @@
 
 /*Através da criação de uma classe que contém características gerais de veículos é possível fazer com que classes menores, 
     por meio de herança, herdem seus atributos sem que eles precisem ser repetidos, assim poupando código e deixando tudo mais rápido */
-    
+
     class Veiculo {
         public $modelo;
         public $cor;
@@ -45,3 +45,11 @@
     $carro -> AbrirPorta();
     echo "<br>";
     var_dump($carro);
+    echo "<br>";
+    $moto =new Moto();
+    $moto -> modelo = "CG 160";
+    $moto -> cor = "Cinza";
+    $moto ->  ano = 2014;
+    $moto -> darGrau();
+    echo "<br>";
+    var_dump($moto);
