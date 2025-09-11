@@ -6,6 +6,6 @@
     <title>Cadastrar</title>
 </head>
 <body>
-    
+    <div class="div">Se cadastre aqui: </div>
 </body>
 </html>
